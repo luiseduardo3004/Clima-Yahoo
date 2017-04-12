@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C129131E9DE45C00970181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C129121E9DE45C00970181 /* AppDelegate.swift */; };
+		D3C129151E9DE45C00970181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C129141E9DE45C00970181 /* ViewController.swift */; };
+		D3C129181E9DE45C00970181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C129161E9DE45C00970181 /* Main.storyboard */; };
+		D3C1291A1E9DE45C00970181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C129191E9DE45C00970181 /* Assets.xcassets */; };
+		D3C1291D1E9DE45C00970181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C1291B1E9DE45C00970181 /* LaunchScreen.storyboard */; };
+		D3C129281E9DE45C00970181 /* Clima_YahooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C129271E9DE45C00970181 /* Clima_YahooTests.swift */; };
+		D3C129331E9DE45C00970181 /* Clima_YahooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C129321E9DE45C00970181 /* Clima_YahooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C129241E9DE45C00970181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C129071E9DE45C00970181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C1290E1E9DE45C00970181;
+			remoteInfo = "Clima Yahoo";
+		};
+		D3C1292F1E9DE45C00970181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C129071E9DE45C00970181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C1290E1E9DE45C00970181;
+			remoteInfo = "Clima Yahoo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3C1290F1E9DE45C00970181 /* Clima Yahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clima Yahoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C129121E9DE45C00970181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C129141E9DE45C00970181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3C129171E9DE45C00970181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C129191E9DE45C00970181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C1291C1E9DE45C00970181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C1291E1E9DE45C00970181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C129231E9DE45C00970181 /* Clima YahooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clima YahooTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C129271E9DE45C00970181 /* Clima_YahooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima_YahooTests.swift; sourceTree = "<group>"; };
+		D3C129291E9DE45C00970181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C1292E1E9DE45C00970181 /* Clima YahooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clima YahooUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C129321E9DE45C00970181 /* Clima_YahooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima_YahooUITests.swift; sourceTree = "<group>"; };
+		D3C129341E9DE45C00970181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C1290C1E9DE45C00970181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C129201E9DE45C00970181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C1292B1E9DE45C00970181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C129061E9DE45B00970181 = {
+			isa = PBXGroup;
+			children = (
+				D3C129111E9DE45C00970181 /* Clima Yahoo */,
+				D3C129261E9DE45C00970181 /* Clima YahooTests */,
+				D3C129311E9DE45C00970181 /* Clima YahooUITests */,
+				D3C129101E9DE45C00970181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C129101E9DE45C00970181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C1290F1E9DE45C00970181 /* Clima Yahoo.app */,
+				D3C129231E9DE45C00970181 /* Clima YahooTests.xctest */,
+				D3C1292E1E9DE45C00970181 /* Clima YahooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C129111E9DE45C00970181 /* Clima Yahoo */ = {
+			isa = PBXGroup;
+			children = (
+				D3C129121E9DE45C00970181 /* AppDelegate.swift */,
+				D3C129141E9DE45C00970181 /* ViewController.swift */,
+				D3C129161E9DE45C00970181 /* Main.storyboard */,
+				D3C129191E9DE45C00970181 /* Assets.xcassets */,
+				D3C1291B1E9DE45C00970181 /* LaunchScreen.storyboard */,
+				D3C1291E1E9DE45C00970181 /* Info.plist */,
+			);
+			path = "Clima Yahoo";
+			sourceTree = "<group>";
+		};
+		D3C129261E9DE45C00970181 /* Clima YahooTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C129271E9DE45C00970181 /* Clima_YahooTests.swift */,
+				D3C129291E9DE45C00970181 /* Info.plist */,
+			);
+			path = "Clima YahooTests";
+			sourceTree = "<group>";
+		};
+		D3C129311E9DE45C00970181 /* Clima YahooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C129321E9DE45C00970181 /* Clima_YahooUITests.swift */,
+				D3C129341E9DE45C00970181 /* Info.plist */,
+			);
+			path = "Clima YahooUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C1290E1E9DE45C00970181 /* Clima Yahoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C129371E9DE45C00970181 /* Build configuration list for PBXNativeTarget "Clima Yahoo" */;
+			buildPhases = (
+				D3C1290B1E9DE45C00970181 /* Sources */,
+				D3C1290C1E9DE45C00970181 /* Frameworks */,
+				D3C1290D1E9DE45C00970181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clima Yahoo";
+			productName = "Clima Yahoo";
+			productReference = D3C1290F1E9DE45C00970181 /* Clima Yahoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C129221E9DE45C00970181 /* Clima YahooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C1293A1E9DE45C00970181 /* Build configuration list for PBXNativeTarget "Clima YahooTests" */;
+			buildPhases = (
+				D3C1291F1E9DE45C00970181 /* Sources */,
+				D3C129201E9DE45C00970181 /* Frameworks */,
+				D3C129211E9DE45C00970181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C129251E9DE45C00970181 /* PBXTargetDependency */,
+			);
+			name = "Clima YahooTests";
+			productName = "Clima YahooTests";
+			productReference = D3C129231E9DE45C00970181 /* Clima YahooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3C1292D1E9DE45C00970181 /* Clima YahooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C1293D1E9DE45C00970181 /* Build configuration list for PBXNativeTarget "Clima YahooUITests" */;
+			buildPhases = (
+				D3C1292A1E9DE45C00970181 /* Sources */,
+				D3C1292B1E9DE45C00970181 /* Frameworks */,
+				D3C1292C1E9DE45C00970181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C129301E9DE45C00970181 /* PBXTargetDependency */,
+			);
+			name = "Clima YahooUITests";
+			productName = "Clima YahooUITests";
+			productReference = D3C1292E1E9DE45C00970181 /* Clima YahooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C129071E9DE45C00970181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Santamaria Technologies";
+				TargetAttributes = {
+					D3C1290E1E9DE45C00970181 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C78REF595D;
+					};
+					D3C129221E9DE45C00970181 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C78REF595D;
+						TestTargetID = D3C1290E1E9DE45C00970181;
+					};
+					D3C1292D1E9DE45C00970181 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C78REF595D;
+						TestTargetID = D3C1290E1E9DE45C00970181;
+					};
+				};
+			};
+			buildConfigurationList = D3C1290A1E9DE45C00970181 /* Build configuration list for PBXProject "Clima Yahoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C129061E9DE45B00970181;
+			productRefGroup = D3C129101E9DE45C00970181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C1290E1E9DE45C00970181 /* Clima Yahoo */,
+				D3C129221E9DE45C00970181 /* Clima YahooTests */,
+				D3C1292D1E9DE45C00970181 /* Clima YahooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C1290D1E9DE45C00970181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C1291D1E9DE45C00970181 /* LaunchScreen.storyboard in Resources */,
+				D3C1291A1E9DE45C00970181 /* Assets.xcassets in Resources */,
+				D3C129181E9DE45C00970181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C129211E9DE45C00970181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C1292C1E9DE45C00970181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C1290B1E9DE45C00970181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C129151E9DE45C00970181 /* ViewController.swift in Sources */,
+				D3C129131E9DE45C00970181 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C1291F1E9DE45C00970181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C129281E9DE45C00970181 /* Clima_YahooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C1292A1E9DE45C00970181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C129331E9DE45C00970181 /* Clima_YahooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C129251E9DE45C00970181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C1290E1E9DE45C00970181 /* Clima Yahoo */;
+			targetProxy = D3C129241E9DE45C00970181 /* PBXContainerItemProxy */;
+		};
+		D3C129301E9DE45C00970181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C1290E1E9DE45C00970181 /* Clima Yahoo */;
+			targetProxy = D3C1292F1E9DE45C00970181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3C129161E9DE45C00970181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C129171E9DE45C00970181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C1291B1E9DE45C00970181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C1291C1E9DE45C00970181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C129351E9DE45C00970181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3C129361E9DE45C00970181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C129381E9DE45C00970181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Clima Yahoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ST.Clima-Yahoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3C129391E9DE45C00970181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Clima Yahoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ST.Clima-Yahoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3C1293B1E9DE45C00970181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Clima YahooTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ST.Clima-YahooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clima Yahoo.app/Clima Yahoo";
+			};
+			name = Debug;
+		};
+		D3C1293C1E9DE45C00970181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Clima YahooTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ST.Clima-YahooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clima Yahoo.app/Clima Yahoo";
+			};
+			name = Release;
+		};
+		D3C1293E1E9DE45C00970181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clima YahooUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ST.Clima-YahooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clima Yahoo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D3C1293F1E9DE45C00970181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clima YahooUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ST.Clima-YahooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clima Yahoo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C1290A1E9DE45C00970181 /* Build configuration list for PBXProject "Clima Yahoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C129351E9DE45C00970181 /* Debug */,
+				D3C129361E9DE45C00970181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C129371E9DE45C00970181 /* Build configuration list for PBXNativeTarget "Clima Yahoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C129381E9DE45C00970181 /* Debug */,
+				D3C129391E9DE45C00970181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3C1293A1E9DE45C00970181 /* Build configuration list for PBXNativeTarget "Clima YahooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C1293B1E9DE45C00970181 /* Debug */,
+				D3C1293C1E9DE45C00970181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3C1293D1E9DE45C00970181 /* Build configuration list for PBXNativeTarget "Clima YahooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C1293E1E9DE45C00970181 /* Debug */,
+				D3C1293F1E9DE45C00970181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C129071E9DE45C00970181 /* Project object */;
+}
